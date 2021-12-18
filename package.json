@@ -1,0 +1,15 @@
+{
+  "name": "kayano-docs",
+  "version": "1.0.0",
+  "description": "The official Documentation for Kayano",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-theme-hope": "^1.21.0"
+  }
+}

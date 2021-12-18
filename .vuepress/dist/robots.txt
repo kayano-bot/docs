@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://kayano.pukima.site/docs/sitemap.xml
