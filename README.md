@@ -12,5 +12,5 @@ features:
   details: One of the biggest advantages is that this bot is open-source so you can contribute at any time and everywhere or customize the bot to your liking and host it yourself.
 - title: Newest Features
   details: Kayano uses the latest Features of Discords API which allows things like Slash Commands, Select Menus and more...
-footer: MIT Licensed | Copyright © 2021 Jaron Ain
+footer: MIT Licensed | Copyright © 2021 Pukima
 ---
