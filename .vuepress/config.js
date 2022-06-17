@@ -11,7 +11,7 @@ module.exports = config({
         darkmode: 'switch',
         blog: false,
         repo: 'https://github.com/kayano-bot/docs',
-        hostname: 'https://kayano.pukima.site/',
+        hostname: 'https://kayano-bot.github.io/',
         themeColor: {
             old_blurple: '#7289DA',
             dark_blurple: '#4E5D94',
