@@ -10,7 +10,7 @@ module.exports = config({
         smoothScroll: true,
         darkmode: 'switch',
         blog: false,
-        repo: 'https://github.com/kayano-bot',
+        repo: 'https://github.com/kayano-bot/docs',
         hostname: 'https://kayano.pukima.site/',
         themeColor: {
             old_blurple: '#7289DA',
