@@ -1,17 +1,13 @@
 ---
-description: In fact, Tako is full of awesome features
+description: Work in Progress
 ---
 
 # ✨ Our awesome Features
 
-## Awesome Feature One
+In fact, Tako is full of awesome features
 
-Get amazing things done with awesome feature one. But remember that awesome feature two and three exist too.&#x20;
+## Automatic Translation
 
-![](https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?crop=entropy\&cs=tinysrgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwyfHxhcHB8ZW58MHx8fHwxNjYwNTgzMzQz\&ixlib=rb-1.2.1\&q=80)
+<figure><img src="../.gitbook/assets/Automatic Translation(6).png" alt=""><figcaption></figcaption></figure>
 
-## Awesome Feature Two
-
-Get amazing things done with awesome feature two. But remember that awesome feature one and three exist too. In fact, Awesome Product is full of awesome features.
-
-![](https://images.unsplash.com/photo-1569144157591-c60f3f82f137?crop=entropy\&cs=tinysrgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwxfHxmZWF0dXJlfGVufDB8fHx8MTY2MDU4MzM1OQ\&ixlib=rb-1.2.1\&q=80)
+The default Tako language is set to English. However you can choose between 11 diferrent languages. Once someone with _Manage Server_ permissions activated Autotranslate (`/auto_translate toggle`), every single message not being detected with the language previously set up (or default: English), is going to be translated to the right language. This feature easily eliminates language barriers and you can even customize it how you want.

@@ -1,8 +1,12 @@
+---
+description: We hope you brought pizza!
+---
+
 # 👋 Welcome to the Tako Docs
 
 ## Overview
 
-Tako is a 100% free and open-source Discord bot, which aims to have everything you need in the highest quality.
+Tako is a 100% free and open-source Discord bot, which aims to have everything you need in the highest quality. It offers features like automatic translation, polls and more.
 
 ## Quick links
 
