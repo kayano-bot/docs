@@ -1,5 +1,5 @@
 ---
-description: We hope you brought pizza!
+description: We hope you brought tacos!
 ---
 
 # 👋 Welcome to the Tako Docs
