@@ -1,10 +1,8 @@
 ---
-description: Work in Progress
+description: In fact, Tako is full of awesome features
 ---
 
 # ✨ Our awesome Features
-
-In fact, Tako is full of awesome features
 
 ## Automatic Translation
 
