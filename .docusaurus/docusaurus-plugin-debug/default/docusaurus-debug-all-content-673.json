@@ -1,0 +1,136 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/",
+          "tagsPath": "/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/home/sheep/projects/tako/docs/sidebars.js",
+          "contentPath": "/home/sheep/projects/tako/docs/docs",
+          "contentPathLocalized": "/home/sheep/projects/tako/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "👋 Welcome",
+              "description": "Tako is a 100% free and open-source Discord bot, which aims to have everything you need in the highest quality. It offers features like automatic translation, polls and more.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "slug": "/"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "💡 Ideology",
+                "permalink": "/overview/ideology"
+              }
+            },
+            {
+              "unversionedId": "overview/features",
+              "id": "overview/features",
+              "title": "✨️ Features",
+              "description": "Automatic Translation",
+              "source": "@site/docs/overview/features.md",
+              "sourceDirName": "overview",
+              "slug": "/overview/features",
+              "permalink": "/overview/features",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "💡 Ideology",
+                "permalink": "/overview/ideology"
+              }
+            },
+            {
+              "unversionedId": "overview/ideology",
+              "id": "overview/ideology",
+              "title": "💡 Ideology",
+              "description": "Pukima loved creating Discord Servers. With that came the question: \"What bots do I use?\".",
+              "source": "@site/docs/overview/ideology.md",
+              "sourceDirName": "overview",
+              "slug": "/overview/ideology",
+              "permalink": "/overview/ideology",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "👋 Welcome",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "✨️ Features",
+                "permalink": "/overview/features"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "📝 Overview",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "overview/ideology"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "overview/features"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

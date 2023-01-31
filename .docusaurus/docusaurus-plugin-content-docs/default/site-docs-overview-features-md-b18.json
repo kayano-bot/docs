@@ -1,0 +1,19 @@
+{
+  "unversionedId": "overview/features",
+  "id": "overview/features",
+  "title": "✨️ Features",
+  "description": "Automatic Translation",
+  "source": "@site/docs/overview/features.md",
+  "sourceDirName": "overview",
+  "slug": "/overview/features",
+  "permalink": "/overview/features",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "💡 Ideology",
+    "permalink": "/overview/ideology"
+  }
+}
