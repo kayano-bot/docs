@@ -1,27 +1,41 @@
----
-description: We hope you brought tacos!
----
+# Website
 
-# 👋 Welcome to the Tako Docs
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-## Overview
+### Installation
 
-Tako is a 100% free and open-source Discord bot, which aims to have everything you need in the highest quality. It offers features like automatic translation, polls and more.
+```
+$ yarn
+```
 
-## Quick links
+### Local Development
 
-{% content-ref url="overview/what-we-do.md" %}
-[what-we-do.md](overview/what-we-do.md)
-{% endcontent-ref %}
+```
+$ yarn start
+```
 
-{% content-ref url="overview/our-awesome-features.md" %}
-[our-awesome-features.md](overview/our-awesome-features.md)
-{% endcontent-ref %}
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-## Get Started
+### Build
 
-We've put together some helpful guides for you to get setup with our product quickly and easily.
+```
+$ yarn build
+```
 
-{% content-ref url="fundamentals/getting-started.md" %}
-[getting-started.md](fundamentals/getting-started.md)
-{% endcontent-ref %}
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
