@@ -82,7 +82,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${"2023" ? new Date().getFullYear() == 2023 : "2023-" + new Date().getFullYear()} Tako. Powered by Netlify, built with Docasaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear() == 2023 ? "2023" : "2023-" + new Date().getFullYear()} Tako. Powered by Netlify, built with Docasaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
