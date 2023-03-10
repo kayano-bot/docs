@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Tako Docs',
+  tagline: 'Tako is a 100% free and open-source Discord bot, which aims to have everything you need in the highest quality. It offers features like automatic translation, polls and more.',
   favicon: 'img/logo.png',
 
   // Set the production url of your site here
@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'tako-discord', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -57,7 +57,7 @@ const config = {
       navbar: {
         title: 'Tako Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Tako Logo',
           src: 'img/logo.png',
         }
       },
@@ -82,7 +82,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Tako. Powered by Netlify, built with Docasaurus.`,
+        copyright: `Copyright © ${"2023" ? new Date().getFullYear() == 2023 : "2023-" + new Date().getFullYear()} Tako. Powered by Netlify, built with Docasaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
